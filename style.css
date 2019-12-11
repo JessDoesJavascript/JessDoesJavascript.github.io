@@ -8,6 +8,53 @@
   background-color: #ddf45b;
 }
 
+H2 {
+  color: #522032;
+  font-size: 35px;
+  letter-spacing: 3px;
+  width: 70%;
+  padding: 10px;
+  margin: 15%;
+  margin-top: 250px;
+  margin-bottom: 400px;
+  -webkit-box-shadow: 7px 7px 0px 7px #ff7847;
+          box-shadow: 7px 7px 0px 7px #ff7847;
+}
+
+.section {
+  margin: 10%;
+  padding: 50px;
+  color: #522032;
+  background-color: #ff7847;
+  -webkit-box-shadow: 20px 21px 0px -9px #522032;
+          box-shadow: 20px 21px 0px -9px #522032;
+  margin-bottom: 400px;
+}
+
+.heading {
+  color: #522032;
+  background-color: #ff7847;
+  font-size: 20pt;
+  letter-spacing: 4px;
+}
+
+p {
+  color: #522032;
+  background-color: #ff7847;
+  font-size: 15pt;
+  font-weight: 1;
+  letter-spacing: 2px;
+}
+
+.profile-links {
+  color: #522032;
+  background-color: #ff7847;
+}
+
+footer {
+  color: #522032;
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -81,11 +128,30 @@ h1 {
   .nav-links {
     width: 60%;
   }
+  p {
+    color: #522032;
+    background-color: #ff7847;
+    font-size: 10pt;
+    font-weight: 1;
+    letter-spacing: 1px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
+  }
+  H2 {
+    color: #522032;
+    font-size: 25px;
+    letter-spacing: 3px;
+    width: 70%;
+    padding: 10px;
+    margin: 15%;
+    margin-top: 250px;
+    margin-bottom: 400px;
+    -webkit-box-shadow: 7px 7px 0px 7px #ff7847;
+            box-shadow: 7px 7px 0px 7px #ff7847;
   }
   .nav-links {
     position: absolute;
@@ -168,53 +234,5 @@ h1 {
 
 .title {
   font-size: 30px;
-}
-
-H2 {
-  color: #522032;
-  font-size: 35px;
-  letter-spacing: 3px;
-  width: 70%;
-  padding: 10px;
-  margin: 15%;
-  margin-top: 250px;
-  margin-bottom: 400px;
-  -webkit-box-shadow: 7px 7px 0px 7px #ff7847;
-          box-shadow: 7px 7px 0px 7px #ff7847;
-}
-
-.section {
-  margin: 10%;
-  padding: 50px;
-  color: #522032;
-  background-color: #ff7847;
-  -webkit-box-shadow: 20px 21px 0px -9px #522032;
-          box-shadow: 20px 21px 0px -9px #522032;
-  margin-bottom: 400px;
-}
-
-.heading {
-  color: #522032;
-  background-color: #ff7847;
-  font-size: 20pt;
-  letter-spacing: 4px;
-}
-
-p {
-  color: #522032;
-  background-color: #ff7847;
-  font-size: 15pt;
-  font-weight: 1;
-  letter-spacing: 2px;
-  text-align: justify;
-}
-
-.profile-links {
-  color: #522032;
-  background-color: #ff7847;
-}
-
-footer {
-  color: #522032;
 }
 /*# sourceMappingURL=style.css.map */
