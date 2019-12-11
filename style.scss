@@ -1,0 +1,174 @@
+/* Color scheme  */
+$navBarText: #522032;
+$navBackground: #ff7847;
+$bodyBackground: #ddf45b;
+$navText: #522032;
+$bodyText: #522032;
+$cardBackground: #ff7847;
+$cardShadow: #522032;
+$titleColor: #522032;
+
+// general page stuff
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Mitr", sans-serif;
+  background-color: $bodyBackground;
+}
+
+//nav-bar
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: $navBackground;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+// name in nav-bar
+h1 {
+  background-color: $navBackground;
+  font-size: 20px;
+}
+.logo {
+  color: $navText;
+  background-color: $navBackground;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+// nav-bar
+.nav-links {
+  background-color: $navBackground;
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+.nav-links a {
+  color: $navText;
+  background-color: $navBackground;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.nav-links li {
+  background-color: $navBackground;
+  list-style: none;
+}
+.burger {
+  display: none;
+}
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: $navText;
+  margin: 5px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+}
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: $navBackground;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+    background-color: $navBackground;
+  }
+}
+.nav-active {
+  transform: translateX(0%);
+}
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+.title {
+  font-size: 30px;
+}
+// about
+H2 {
+  color: $titleColor;
+  font-size: 35px;
+  letter-spacing: 3px;
+  width: 70%;
+  padding: 10px;
+  margin: 15%;
+  margin-top: 250px;
+  margin-bottom: 400px;
+  box-shadow: 7px 7px 0px 7px #ff7847;
+}
+// info sections
+.section {
+  margin: 10%;
+  padding: 50px;
+  color: $bodyText;
+  background-color: $cardBackground;
+  box-shadow: 20px 21px 0px -9px $cardShadow;
+  margin-bottom: 400px;
+}
+.heading {
+  color: $bodyText;
+  background-color: $cardBackground;
+  font-size: 20pt;
+  letter-spacing: 4px;
+}
+p {
+  color: $bodyText;
+  background-color: $cardBackground;
+  font-size: 15pt;
+  font-weight: 1;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+.profile-links {
+  // text-decoration: none;
+  color: $bodyText;
+  background-color: $cardBackground;
+}
+footer {
+  color: $bodyText;
+}
