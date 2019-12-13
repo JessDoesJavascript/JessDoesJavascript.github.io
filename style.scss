@@ -206,11 +206,12 @@ H2 {
 // info sections
 .section {
   margin: 10%;
-  padding: 50px;
+  padding: 5%;
   color: $bodyText;
   background-color: $cardBackground;
   box-shadow: 20px 21px 0px -9px $cardShadow;
   margin-bottom: 400px;
+  
 }
 .heading {
   color: $bodyText;
@@ -224,7 +225,8 @@ p {
   font-size: 15pt;
   font-weight: 1;
   letter-spacing: 2px;
-  text-align: justify;
+  word-wrap: break-word;
+  
 }
 
 .anchor {

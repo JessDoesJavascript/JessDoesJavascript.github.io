@@ -236,8 +236,6 @@ h1 {
 .title {
   font-size: 30px;
 }
-<<<<<<< HEAD
-=======
 
 H2 {
   color: #522032;
@@ -254,7 +252,7 @@ H2 {
 
 .section {
   margin: 10%;
-  padding: 50px;
+  padding: 5%;
   color: #522032;
   background-color: #ff7847;
   -webkit-box-shadow: 20px 21px 0px -9px #522032;
@@ -275,7 +273,7 @@ p {
   font-size: 15pt;
   font-weight: 1;
   letter-spacing: 2px;
-  text-align: justify;
+  word-wrap: break-word;
 }
 
 .anchor {
@@ -298,5 +296,4 @@ p {
 footer {
   color: #522032;
 }
->>>>>>> develop
 /*# sourceMappingURL=style.css.map */
