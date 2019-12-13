@@ -15,6 +15,7 @@ $titleColor: #522032;
   box-sizing: border-box;
   font-family: "Mitr", sans-serif;
   background-color: $bodyBackground;
+  scroll-behavior: smooth;
 }
 
 // about
@@ -189,4 +190,58 @@ h1 {
 }
 .title {
   font-size: 30px;
+}
+// about
+H2 {
+  color: $titleColor;
+  font-size: 35px;
+  letter-spacing: 3px;
+  width: 70%;
+  padding: 10px;
+  margin: 15%;
+  margin-top: 250px;
+  margin-bottom: 400px;
+  box-shadow: 7px 7px 0px 7px #ff7847;
+}
+// info sections
+.section {
+  margin: 10%;
+  padding: 50px;
+  color: $bodyText;
+  background-color: $cardBackground;
+  box-shadow: 20px 21px 0px -9px $cardShadow;
+  margin-bottom: 400px;
+}
+.heading {
+  color: $bodyText;
+  background-color: $cardBackground;
+  font-size: 20pt;
+  letter-spacing: 4px;
+}
+p {
+  color: $bodyText;
+  background-color: $cardBackground;
+  font-size: 15pt;
+  font-weight: 1;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+.anchor {
+  position: absolute;
+  transform: translateY(-50vh);
+}
+
+.anchor-sections {
+  position: absolute;
+  transform: translateY(-20vh);
+}
+
+.profile-links {
+  // text-decoration: none;
+  color: $bodyText;
+  background-color: $cardBackground;
+}
+footer {
+  color: $bodyText;
 }

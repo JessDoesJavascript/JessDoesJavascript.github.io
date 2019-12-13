@@ -6,6 +6,7 @@
           box-sizing: border-box;
   font-family: "Mitr", sans-serif;
   background-color: #ddf45b;
+  scroll-behavior: smooth;
 }
 
 H2 {
@@ -235,4 +236,67 @@ h1 {
 .title {
   font-size: 30px;
 }
+<<<<<<< HEAD
+=======
+
+H2 {
+  color: #522032;
+  font-size: 35px;
+  letter-spacing: 3px;
+  width: 70%;
+  padding: 10px;
+  margin: 15%;
+  margin-top: 250px;
+  margin-bottom: 400px;
+  -webkit-box-shadow: 7px 7px 0px 7px #ff7847;
+          box-shadow: 7px 7px 0px 7px #ff7847;
+}
+
+.section {
+  margin: 10%;
+  padding: 50px;
+  color: #522032;
+  background-color: #ff7847;
+  -webkit-box-shadow: 20px 21px 0px -9px #522032;
+          box-shadow: 20px 21px 0px -9px #522032;
+  margin-bottom: 400px;
+}
+
+.heading {
+  color: #522032;
+  background-color: #ff7847;
+  font-size: 20pt;
+  letter-spacing: 4px;
+}
+
+p {
+  color: #522032;
+  background-color: #ff7847;
+  font-size: 15pt;
+  font-weight: 1;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+.anchor {
+  position: absolute;
+  -webkit-transform: translateY(-50vh);
+          transform: translateY(-50vh);
+}
+
+.anchor-sections {
+  position: absolute;
+  -webkit-transform: translateY(-20vh);
+          transform: translateY(-20vh);
+}
+
+.profile-links {
+  color: #522032;
+  background-color: #ff7847;
+}
+
+footer {
+  color: #522032;
+}
+>>>>>>> develop
 /*# sourceMappingURL=style.css.map */
