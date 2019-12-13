@@ -6,6 +6,7 @@
           box-sizing: border-box;
   font-family: "Mitr", sans-serif;
   background-color: #ddf45b;
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -207,6 +208,18 @@ p {
   font-weight: 1;
   letter-spacing: 2px;
   text-align: justify;
+}
+
+.anchor {
+  position: absolute;
+  -webkit-transform: translateY(-50vh);
+          transform: translateY(-50vh);
+}
+
+.anchor-sections {
+  position: absolute;
+  -webkit-transform: translateY(-20vh);
+          transform: translateY(-20vh);
 }
 
 .profile-links {

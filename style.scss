@@ -15,6 +15,7 @@ $titleColor: #522032;
   box-sizing: border-box;
   font-family: "Mitr", sans-serif;
   background-color: $bodyBackground;
+  scroll-behavior: smooth;
 }
 
 //nav-bar
@@ -162,6 +163,16 @@ p {
   font-weight: 1;
   letter-spacing: 2px;
   text-align: justify;
+}
+
+.anchor {
+  position: absolute;
+  transform: translateY(-50vh);
+}
+
+.anchor-sections {
+  position: absolute;
+  transform: translateY(-20vh);
 }
 
 .profile-links {
