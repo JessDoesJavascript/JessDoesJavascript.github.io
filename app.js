@@ -22,4 +22,8 @@ const navSlide = () => {
 
 navSlide();
 
-    
+    // fade in on scroll
+const scrollFade = () => {
+    var section = document.getElementsByClassName("section");
+        
+}
