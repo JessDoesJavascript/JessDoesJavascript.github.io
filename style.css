@@ -8,11 +8,6 @@
   background-color: #ddf45b;
   scroll-behavior: smooth;
 }
-header {
-  margin-bottom: 50%;
-  margin-top: 25%;
-
-}
 
 H2 {
   color: #522032;
@@ -22,7 +17,7 @@ H2 {
   padding: 10px;
   margin: 15%;
   margin-top: 250px;
-  /* margin-bottom: 400px; */
+  margin-bottom: 400px;
   -webkit-box-shadow: 7px 7px 0px 7px #ff7847;
           box-shadow: 7px 7px 0px 7px #ff7847;
 }
@@ -34,7 +29,7 @@ H2 {
   background-color: #ff7847;
   -webkit-box-shadow: 20px 21px 0px -9px #522032;
           box-shadow: 20px 21px 0px -9px #522032;
-  margin-bottom: 1040px;
+  margin-bottom: 50%;
 }
 
 .heading {
@@ -262,7 +257,7 @@ H2 {
   background-color: #ff7847;
   -webkit-box-shadow: 20px 21px 0px -9px #522032;
           box-shadow: 20px 21px 0px -9px #522032;
-  margin-bottom: 50%;
+  margin-bottom: 400px;
 }
 
 .heading {
