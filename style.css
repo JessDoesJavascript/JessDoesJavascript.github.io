@@ -1,25 +1,40 @@
 /* Color scheme  */
 * {
   margin: 0px;
-  padding: 0px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   font-family: "Mitr", sans-serif;
   background-color: #ddf45b;
   scroll-behavior: smooth;
+}
+
+.home-section {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30vh;
+  margin-bottom: 30vh;
 }
 
 H2 {
   color: #522032;
   font-size: 35px;
   letter-spacing: 3px;
-  width: 70%;
   padding: 10px;
-  margin: 15%;
-  margin-top: 250px;
-  margin-bottom: 400px;
+  max-width: 600px;
+  text-align: right;
+  margin: 100px;
   -webkit-box-shadow: 7px 7px 0px 7px #ff7847;
           box-shadow: 7px 7px 0px 7px #ff7847;
+}
+
+img {
+  max-width: 300px;
+  border-radius: 100%;
+  padding: 10px;
 }
 
 .section {
@@ -139,20 +154,36 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden;
+  .home-section {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  img {
+    max-width: 300px;
   }
   H2 {
     color: #522032;
-    font-size: 25px;
+    font-size: 20pt;
     letter-spacing: 3px;
-    width: 70%;
+    width: 80%;
     padding: 10px;
-    margin: 15%;
-    margin-top: 250px;
+    margin: 15px;
+    margin-top: 50px;
     margin-bottom: 400px;
     -webkit-box-shadow: 7px 7px 0px 7px #ff7847;
             box-shadow: 7px 7px 0px 7px #ff7847;
+  }
+  body {
+    overflow-x: hidden;
   }
   .nav-links {
     position: absolute;
@@ -235,19 +266,6 @@ h1 {
 
 .title {
   font-size: 30px;
-}
-
-H2 {
-  color: #522032;
-  font-size: 35px;
-  letter-spacing: 3px;
-  width: 70%;
-  padding: 10px;
-  margin: 15%;
-  margin-top: 250px;
-  margin-bottom: 400px;
-  -webkit-box-shadow: 7px 7px 0px 7px #ff7847;
-          box-shadow: 7px 7px 0px 7px #ff7847;
 }
 
 .section {
