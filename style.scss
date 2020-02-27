@@ -22,7 +22,7 @@ $titleColor: #522032;
 
 
 .home-section {
-  width: 100%;
+  // width: 100%;
   display: flex; 
   padding: 10px;
   align-items: center;
@@ -165,10 +165,10 @@ h1 {
 
 @media screen and (max-width: 768px) {
  .home-section {
-   width: 100%;
+  //  width: 100%;
    display: flex; 
    flex-direction: column-reverse; 
-   align-items: center;
+   justify-content: center;
   //  padding: 10px;
    
 }
@@ -180,13 +180,15 @@ img {
 H2 {
     color: $titleColor;
     font-size: 20pt;
+    text-align: justify;
     letter-spacing: 3px;
     width: 80%;
     padding: 10px;
-    margin: 15px;
+    margin: 100px;
     margin-top: 50px;
     margin-bottom: 400px;
     box-shadow: 7px 7px 0px 7px #ff7847;
+    
   }
 
   body {
