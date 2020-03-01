@@ -6,6 +6,24 @@
   scroll-behavior: smooth;
 }
 
+@-webkit-keyframes img-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes img-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .home-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,12 +46,20 @@ H2 {
   margin: 100px;
   -webkit-box-shadow: 7px 7px 0px 7px #ff7847;
           box-shadow: 7px 7px 0px 7px #ff7847;
+  -webkit-animation-name: img-fade-in;
+          animation-name: img-fade-in;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 img {
   max-width: 300px;
   border-radius: 100%;
   padding: 10px;
+  -webkit-animation-name: img-fade-in;
+          animation-name: img-fade-in;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 .section {
